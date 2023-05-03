@@ -1,0 +1,124 @@
+.Hero {
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    background-color: var(--Secondary);
+    overflow: hidden;
+    color: black;
+
+
+}
+
+.lightSub {
+    padding-top: 1rem;
+    color: rgba(0, 0, 0, 0.378);
+}
+
+.HeroMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.rightContainer {
+    width: 35vw;
+    position: relative;
+    height: 80vh;
+}
+
+.shiny {
+    color: var(--Primary);
+}
+
+.jobSearchContainer {
+    width: 90%;
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.898);
+    padding: 0rem 1rem;
+    border-radius: 15px;
+}
+
+.inputContainer {
+    display: flex;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-left: 20px;
+    color: black;
+}
+
+.inputSearch {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.FindJobButton {
+    margin-left: 10px;
+}
+
+.inputIcon {
+    height: 20px;
+    align-self: center;
+    padding-right: 5px;
+    opacity: 40%;
+}
+
+.jobSearchContainer input[type="search" i] {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
+}
+
+.jobSearchContainer select {
+    outline: none;
+    border: none;
+}
+
+.leftContainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 2.2%;
+}
+
+.popularSearchesHero {
+    padding-top: 20px;
+}
+
+.unfocused {
+    color: gray;
+}
+
+// floating images in Hero
+.floatingImage {
+    position: absolute;
+}
+
+.manImage {
+    top: 20%;
+}
+
+.work {
+    top: 19%;
+    left: -25%;
+}
+
+.agency {
+    bottom: 5%;
+    right: -52%;
+}
+
+.upload {
+    top: 25%;
+    right: -70%;
+
+}
